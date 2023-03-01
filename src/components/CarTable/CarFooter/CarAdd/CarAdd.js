@@ -25,10 +25,21 @@ const handleChangeUrl = (e) =>{
   setUrl(e.target.value);
 }
 
+const handleSubmit = (e) => {
+  e.preventDefault()
+  createCars(model,year,price,description,url,)
+  setModel("")
+  setYear("")
+  setPrice("")
+  setDescription("")
+  setUrl("")
+}
+
+
   return  (
 
 <div className="car-create">
-  <form >
+  <form  onSubmit={handleSubmit}>
   <label> Model :</label>
     <input type="text" value={model} onChange={handleChangeModel} />
 
@@ -43,6 +54,8 @@ const handleChangeUrl = (e) =>{
 
     <label> Url giriniz :</label>
     <input type="text" value={url} onChange={handleChangeUrl} />
+
+    <button className="create-button">Araba ekle</button>
 
   </form>
 

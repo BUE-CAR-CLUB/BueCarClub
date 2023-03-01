@@ -33,9 +33,8 @@ const editedCars = cars.map((car)=>{
     setCars(editedCars)
 }
 
-const createCars= async(id,newModel,newYear,newPrice,newDescription,newUrl)=>{
+const createCars= async(newModel,newYear,newPrice,newDescription,newUrl)=>{
 const response=await axios.post(` http://localhost:3001/cars`,{
-id,
 model:newModel,
 year:newYear,
 price:newPrice,
