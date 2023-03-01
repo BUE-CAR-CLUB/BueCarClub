@@ -4,6 +4,9 @@ import { CarContext } from "../../../../CarContext"
 
 const CarEdit = ({car,onSubmit}) => {
     const {editCars}=useContext(CarContext)
+    const [model, setModel]= useState(car.model);
+    const [year,setYear]=useState(car.year)
+    const [url, setUrl]=useState(car.url)
     const [price,setPrice]=useState(car.price)
     const [description,setDescription]=useState(car.description)
 
@@ -17,7 +20,7 @@ const CarEdit = ({car,onSubmit}) => {
     const handleSubmit=(event)=>{
         event.preventDefault()
         onSubmit()
-        editCars(car.id,price,description)
+        editCars(car.id,model,year,url,price,description)
     }
 
   return (
