@@ -4,9 +4,65 @@ import { CarContext } from "../../../../CarContext";
 const CarAdd = () => {
   const { createCars } = useContext(CarContext);
   const [model, setModel]= useState("");
+  const [year,setYear]=useState("")
   const [price, setPrice] = useState("");
   const [description, setDescription] = useState("");
+  const [url, setUrl]=useState("")
 
-  return <div>CarAdd</div>;
+const handleChangeModel = (e) =>{
+  setModel(e.target.value);
+}
+const handleChangeYear = (e) =>{
+  setYear(e.target.value);
+}
+const handleChangePrice = (e) =>{
+  setPrice(e.target.value);
+}
+const handleChangeDescription = (e) =>{
+  setDescription(e.target.value);
+}
+const handleChangeUrl = (e) =>{
+  setUrl(e.target.value);
+}
+
+const handleSubmit = (e) => {
+  e.preventDefault()
+  createCars(model,year,price,description,url,)
+  setModel("")
+  setYear("")
+  setPrice("")
+  setDescription("")
+  setUrl("")
+}
+
+
+  return  (
+
+<div className="car-create">
+  <form  onSubmit={handleSubmit}>
+  <label> Model :</label>
+    <input type="text" value={model} onChange={handleChangeModel} />
+
+    <label> Year :</label>
+    <input type="text" value={year} onChange={handleChangeYear} />
+
+    <label> Price :</label>
+    <input type="text" value={price} onChange={handleChangePrice} />
+
+    <label> Description :</label>
+    <input type="text" value={description} onChange={handleChangeDescription} />
+
+    <label> Url giriniz :</label>
+    <input type="text" value={url} onChange={handleChangeUrl} />
+
+    <button className="create-button">Araba ekle</button>
+
+  </form>
+
+
+</div>
+
+
+  );
 };
 export default CarAdd;

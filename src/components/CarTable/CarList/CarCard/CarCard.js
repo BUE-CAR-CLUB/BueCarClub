@@ -22,7 +22,7 @@ const CarCard = ({ car }) => {
         <h3>{car.model}</h3>
         <h3>{car.year}</h3>
         <h3>{car.price}</h3>
-        <h3>{car.desciription}</h3>
+        <h3>{car.description}</h3>
       </div>
     );
   };

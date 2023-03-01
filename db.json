@@ -55,7 +55,11 @@
       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
       "url": "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=cover,width=1920,height=1029/sites/default/files/users/32294/cars_images/feed_874764/0cd74c9307f721de5fa4c343cecebacb.jpg",
       "id": 7
+    },
+    {
+      "price": "25.000",
+      "description": "bıcıbıcı",
+      "id": 8
     }
-  
   ]
 }
