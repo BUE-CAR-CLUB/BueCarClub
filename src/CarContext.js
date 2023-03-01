@@ -44,7 +44,7 @@ price:newPrice,
 description:newDescription,
 })
     const updatedCars=[...cars, response.data]
-     setCars(createCar)
+     setCars(updatedCars)
 }
    
   return (
