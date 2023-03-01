@@ -6,7 +6,6 @@ const CarCard = ({car}) => {
   const [showEdit,setShowEdit]=useState(false)
   const {deleteCars}=useContext(CarContext)
 
-
 const handleSubmit=()=>{
   setShowEdit(false)
 }
@@ -16,13 +15,20 @@ const handleEditClick=()=>{
 const handleDeleteClick=()=>{
   deleteCars(car.id)
 }
-
-
-let content=<h3>{car.model}</h3>
+const goster=()=>{
+  return(
+    <div>
+  <h3>{car.model}</h3>
+  <h3>{car.year}</h3>
+  <h3>{car.price}</h3>
+  <h3>{car.desciription}</h3>
+    </div>
+  )
+}
+let content=goster()
 if(showEdit){
   content=<CarEdit car={car} onSubmit={handleSubmit}/>
 }
-
   return (
     <div className='car-card'>
       {content}

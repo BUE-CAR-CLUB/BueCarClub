@@ -27,6 +27,32 @@
       "price": "100.000$",
       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
       "id": 4
+    },
+    {
+      "model": "Fiat Nuova",
+      "year": "1957",
+      "price": "57.000$",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
+      "id": 5
+    },
+    {
+      "model": "Mercedes Benz",
+      "year": "1970",
+      "price": "75.000$",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
+      "id": 6
+    },
+    {
+      "model": "Ford Model A",
+      "year": "1929",
+      "price": "80.000$",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
+      "id": 7
+    },
+    {
+      "price": "120000",
+      "description": "harikasın",
+      "id": 8
     }
   ]
 }
