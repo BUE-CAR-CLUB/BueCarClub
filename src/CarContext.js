@@ -19,11 +19,26 @@ export const CarProvider = ({ children }) => {
     })
     setCars(updateCars)
 }
+const editCars= async(id,price,description)=>{
+ const response= await axios.put(`http://localhost:3001/cars/${id}`,{
+ "price": price,
+ "description": description,
+})
+const editedCars = cars.map((car)=>{
+   if(car.id===id){
+  return{...car,...response.data}
+  }
+  return car;
+
+})
+    setCars(editedCars)
+
+}
 
 
 
   return (
-    <CarContext.Provider value={{ cars, setCars, showCars }}>
+    <CarContext.Provider value={{ cars, setCars, showCars, deleteCars}}>
       {children}
     </CarContext.Provider>
   );
