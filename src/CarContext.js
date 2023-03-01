@@ -1,7 +1,5 @@
 import { createContext, useState } from "react";
 import axios from "axios"
-import { async } from "q";
-import { response } from "express";
 
 export const CarContext = createContext();
 
@@ -44,7 +42,7 @@ price:newPrice,
 description:newDescription,
 })
     const updatedCars=[...cars, response.data]
-     setCars(createCar)
+     setCars(updatedCars)
 }
    
   return (
