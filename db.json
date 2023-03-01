@@ -19,47 +19,10 @@
     {
       "model": "Ford Model A",
       "year": "1929",
-      "price": "80.000$",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
       "url": "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=cover,width=1920,height=1029/sites/default/files/users/58686/cars_images/58686-870857-car-20211102_115409-20170921_144104.jpg",
+      "price": "200000",
+      "description": "fffffffffffffff",
       "id": 3
-    },
-    {
-      "model": "Porsche 911 Carrera",
-      "year": "1992",
-      "price": "100.000$",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
-      "url": "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=cover,width=1920,height=1029/sites/default/files/cars_images/1405_mb_280se_bronze_1.jpg",
-      "id": 4
-    },
-    {
-      "model": "Fiat Nuova",
-      "year": "1957",
-      "price": "57.000$",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
-      "url": "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=cover,width=1920,height=1029/sites/default/files/users/32185/cars_images/feed_667033/5559bc84c374a6e91373e678ab01ec66.jpeg",
-      "id": 5
-    },
-    {
-      "model": "Mercedes Benz",
-      "year": "1970",
-      "price": "75.000$",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
-      "url": "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=cover,width=1920,height=1029/sites/default/files/users/33237/cars_images/feed_939958/0093cce7a486b749afcf2ef71fba2003.jpeg",
-      "id": 6
-    },
-    {
-      "model": "Ford Model A",
-      "year": "1929",
-      "price": "80.000$",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, iusto?",
-      "url": "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=cover,width=1920,height=1029/sites/default/files/users/32294/cars_images/feed_874764/0cd74c9307f721de5fa4c343cecebacb.jpg",
-      "id": 7
-    },
-    {
-      "price": "25.000",
-      "description": "bıcıbıcı",
-      "id": 8
     }
   ]
 }
