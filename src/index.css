@@ -141,15 +141,14 @@ code {
   
 
 }
-.carImage {
+/* .carImage {
   width: 300px;
   height: 200px;
   margin: 10px;
   justify-content: center;
   
-  
-}
-.card {
+} */
+/* .card {
   border: 5px solid black;
   border-radius: 5px;
   position: relative;
@@ -157,8 +156,54 @@ code {
   align-items: center;
   
   background: aqua;
-}
+} */
 .car-list{
   align-items: center;
+  width: 100%;
+  background-color: white;
 }
 /*Carlist1*/
+
+.scene {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  perspective: 400px;
+}
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  color: black;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+
+}
+.card:hover {
+  transform: rotateY(0.5turn);
+}
+.card_front_face{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: 1s ease-in-out;
+}
+ .carImage {
+  width: 240px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.card_back_face{
+  transform: rotateY(0.5turn);
+  backface-visibility: hidden;
+  background-color: lightgray;
+  width: 240px;
+  height: 300px;
+
+}

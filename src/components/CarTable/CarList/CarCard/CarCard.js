@@ -17,12 +17,20 @@ const CarCard = ({ car }) => {
   };
   const goster = () => {
     return (
-       <div className="card">
-        <img className="carImage" src={car.url} alt="resim"  />
-        <h3>{car.model}</h3>
-        <h3>{car.year}</h3>
-        <h3>{car.price}</h3>
-        <h3>{car.description}</h3>
+      <div className="scene">
+        <div className="card">
+          <div className="card_front_face">
+            <img className="carImage" src={car.url} alt="resim" />
+          </div>
+
+          <div className="card_back_face">
+            <h3>{car.model}</h3>
+            <h3>{car.year}</h3>
+            <h3>{car.price}</h3>
+            <h3>{car.description}</h3>
+          </div>
+          
+        </div>
       </div>
     );
   };
