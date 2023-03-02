@@ -6,9 +6,8 @@ const CarMain = () => {
       <div className="welcome" id="welcome">
         <div className="welcomeMain">
           <div className="welcomeLeft">
-            <h1>WELCOME </h1>
-            <h1>CLASSIC CAR</h1>
-            <h1>SHOWROOM</h1>
+            <h1>WELCOME ...</h1>
+            <h3>BUE CLASSIC CAR SHOWROOM</h3>
             <p>
               Welcome to our classic car showroom, where timeless elegance and
               unmatched craftsmanship come together to create automotive

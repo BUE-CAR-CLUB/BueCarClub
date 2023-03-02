@@ -63,7 +63,7 @@ body {
 
 .welcomeLeft h1 {
   font-size: 2em;
-  padding-bottom: 3%;
+  /* padding-bottom: 1%; */
   letter-spacing: 2px;
   font-weight: 800;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
