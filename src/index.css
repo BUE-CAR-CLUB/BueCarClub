@@ -139,25 +139,23 @@ code {
 .car-list {
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
+  border: 5px solid rgb(184, 168, 168);
+  margin: 20px 20px;
   border-radius: 10px;
   width: fit-content;
   display: flex;
-  padding: 50px;
+  padding: 20px;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
+  background-color: rgba(81, 80, 80, 0.2);
+
 }
 /*Carlist1*/
 
-.car-list{
-  background-color: rgba(81, 80, 80, 0.2);
-  
-}
 
 .card {
   display: flex;
   position: relative;
-  border: 5px solid black;
   width: 600px;
   height: 600px;
   color: black;
@@ -172,12 +170,14 @@ code {
   width: 600px;
   height: 600px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .card_front_face {
   position: absolute;
   margin: 0px;
   padding: 0px;
+  border-radius: 10px;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
@@ -188,6 +188,7 @@ code {
   display: flex;
   flex-direction: column;
   color: #8a8a8a;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
   transform: rotateY(0.5turn);
