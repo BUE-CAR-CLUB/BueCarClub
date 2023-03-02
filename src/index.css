@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 /*header*/
 .navBar {
@@ -80,20 +83,6 @@ body {
 
 /*CarMain1*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.carImage {
-  width: 300px;
-  height: 200px;
-}
-.card {
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
 /*CarMain2*/
 
 .about{
@@ -136,3 +125,29 @@ code {
   max-height: 80vh;
   /* width: 100px; */
 }
+/*Carlist1*/
+.car-list{
+  display: flex;
+  padding: 50px;
+  background-color: aquamarine;
+  gap: 40px;
+
+}
+.car-card{
+  width: 500px;
+  height: 500px;
+
+}
+.carImage {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  
+}
+.card {
+  border: 5px solid black;
+  border-radius: 5px;
+  
+  
+}
+/*Carlist1*/
