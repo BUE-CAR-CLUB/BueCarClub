@@ -149,6 +149,11 @@ code {
 }
 /*Carlist1*/
 
+.car-list{
+  background-color: rgba(81, 80, 80, 0.2);
+  
+}
+
 .card {
   display: flex;
   position: relative;
