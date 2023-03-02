@@ -1,5 +1,5 @@
 import React from 'react'
-import BUE from "../../../resimler/BUE.png"
+import BUE from "../../../resimler/BUE-2.png"
 
 const CarHeader = () => {
   return (
