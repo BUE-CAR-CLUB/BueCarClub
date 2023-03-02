@@ -11,7 +11,7 @@ body {
 .navBar {
   position: sticky;
   top: 0;
-  background-color: rgba(221, 205, 150, 0.5);
+  background-color: rgba(100, 99, 96, 0.5);
   padding-bottom: 1%;
 }
 

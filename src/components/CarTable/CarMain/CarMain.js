@@ -1,5 +1,4 @@
 import React from "react";
-import aboutLogoFoto from "../../../resimler/BUE.png";
 
 const CarMain = () => {
   return (
@@ -15,11 +14,7 @@ const CarMain = () => {
               unmatched craftsmanship come together to create automotive
               masterpieces. Our collection of vintage vehicles is a testament to
               the enduring appeal of classic cars, and we take pride in curating
-              only the finest examples for our discerning clients. Whether
-              you're a seasoned collector or a passionate enthusiast, our
-              showroom offers a rare opportunity to own a piece of automotive
-              history that will be cherished for generations to come. Come visit
-              us and experience the magic of classic cars firsthand
+              only the finest examples for our discerning clients.
             </p>
           </div>
           <div className="welcomeRight">
@@ -33,19 +28,27 @@ const CarMain = () => {
 
       <div className="about" id="about">
         <div className="aboutMain">
-
           <div className="aboutLeft">
             <img
               className="img-responsive"
-              src={aboutLogoFoto}
+              src="https://wallpapercave.com/dwp2x/yCtABom.jpg"
               alt="aboutfoto"
             />
           </div>
 
           <div class="aboutRight">
-                <h1>About Me</h1>
-                <p>Hey I am jaya.We've rounded up our 60 best, easy dinner recipes! From grilled steak to braised chickpeas to allll the sheet pan dinners—we've got you covered. You don't have to drop major dough to make something delicious for dinner. We'​ve got you covered for dinner every week of the year with ... </p>
-            </div>
+            <h1>About Me</h1>
+            <p>
+              We are a team of automotive enthusiasts who strive to preserve the
+              original design and unique character of classic cars. Our
+              collection consists of the most exceptional and rare examples,
+              with each vehicle carefully selected and restored. We take pride
+              in offering high-quality classic cars to our clients and work to
+              preserve automotive history with those who share our passion. We
+              invite you to visit our showroom and take a step into the unique
+              world of classic cars.
+            </p>
+          </div>
         </div>
       </div>
     </>
