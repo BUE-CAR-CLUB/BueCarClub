@@ -17,12 +17,30 @@ const CarCard = ({ car }) => {
   };
   const goster = () => {
     return (
-       <div className="card">
-        <img className="carImage" src={car.url} alt="resim"  />
-        <h3>{car.model}</h3>
-        <h3>{car.year}</h3>
-        <h3>{car.price}</h3>
-        <h3>{car.description}</h3>
+      <div className="card">
+        <div className="card_front_face">
+          <img className="carImage" src={car.url} alt="resim" />
+        </div>
+
+        <div className="card_back_face">
+          <div className="card_metin">
+            <h3>{car.model}</h3>
+            <h3>{car.year}</h3>
+            <h3>{car.price}</h3>
+            <h3>{car.description}</h3>
+          </div>
+
+          <div className="actions">
+            <div className="buttons ">
+              <button className="btn" onClick={handleDeleteClick}>
+                DELETE
+              </button>
+              <button className="btn" onClick={handleEditClick}>
+                EDIT
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     );
   };
@@ -30,19 +48,7 @@ const CarCard = ({ car }) => {
   if (showEdit) {
     content = <CarEdit car={car} onSubmit={handleSubmit} />;
   }
-  return (
-    <div className="car-card">
-      {content}
-      <div className="actions">
-        <button className="edit" onClick={handleEditClick}>
-          EDIT
-        </button>
-        <button className="delete" onClick={handleDeleteClick}>
-          DELETE
-        </button>
-      </div>
-    </div>
-  );
+  return <div className="car-card">{content}</div>;
 };
 
 export default CarCard;
