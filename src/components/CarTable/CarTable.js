@@ -6,6 +6,7 @@ import CarAdd from "./CarFooter/CarAdd/CarAdd";
 
 
 import CarList from "./CarList/CarList";
+import CarMain from "./CarMain/CarMain";
 
 
 const CarTable = () => {
@@ -14,6 +15,7 @@ const CarTable = () => {
 
   return <div>
     <CarNav/>
+    <CarMain/>
     <CarList/>
     <CarAdd/>
    

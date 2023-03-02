@@ -39,13 +39,53 @@ body {
 .topNav .navItems a:hover{
   color: orange;
 }
-
-
-
-
-
 /*header*/
+/*CarMain1*/
+.welcomeMain{
+  display: flex;
+  /* border: 2px solid; */
+  margin: 0 5%;
+}
 
+.welcomeMain .welcomeLeft{
+  padding-top: 10%; 
+  width: 50%;
+} 
+
+.welcomeMain .welcomeRight{
+  width: 50%;
+  
+  
+}
+
+.welcomeMain .welcomeRight img{
+   max-width: 100%;
+  max-height: 80vh;
+} 
+
+.welcomeLeft h1{
+  font-size: 2em;
+  padding-bottom: 3%;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcomeLeft h1 span{
+  color: orange;
+  
+}
+
+.welcomeLeft p{
+  color: gray;
+  padding-bottom: 7%;
+}
+
+
+
+
+
+/*CarMain1*/
 
 
 
