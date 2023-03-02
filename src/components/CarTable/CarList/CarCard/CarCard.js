@@ -42,12 +42,17 @@ const CarCard = ({ car }) => {
     <div className="car-card">
       {content}
       <div className="actions">
-        <button className="edit" onClick={handleEditClick}>
+        
+        <div className="buttons">
+        <button className="btn" onClick={handleEditClick}>
           EDIT
         </button>
-        <button className="delete" onClick={handleDeleteClick}>
+        <button className="btn" onClick={handleDeleteClick}>
           DELETE
         </button>
+
+        </div>
+       
       </div>
     </div>
   );
