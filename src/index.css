@@ -7,6 +7,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
 }
+/*header*/
+.navBar{
+  position: sticky;
+  top: 0;
+  background-color: rgba(221, 205, 150, 0.5);
+  padding-bottom: 1%;
+}
+
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  height: 10vh;
+}
+.navBar a{
+  text-decoration: none;
+  font-weight: 800;
+}
+.logo img{
+  width: 12vh;
+  height: 12vh;
+}
+.topNav .navItems{
+  margin-right: 1%;
+}
+.topNav .navItems a{
+  margin-right: 1em;
+  color: #111;
+}
+.topNav .navItems a:hover{
+  color: orange;
+}
+
+
+
+
+
+/*header*/
+
+
+
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
