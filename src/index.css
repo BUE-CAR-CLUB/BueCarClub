@@ -291,7 +291,7 @@ button:active {
     background-origin: content-box;
     background-repeat: no-repeat;
     background-size: cover;
-	min-height:80vh;
+	min-height:90vh;
   font-style: oblique;
 	
 }
@@ -307,13 +307,13 @@ label{
   margin-top: -10px;
 }
 .box{
-  
+  margin-top: 5%;
   width: 300px;
-  height: 515px;
-	position:relative;
-	left:50%;
-	bottom: 10%;
-	transform: translate(-210%,20%);
+  height: max-content;
+	position:absolute;
+	/* left:50%; */
+	/* bottom: 10%; */
+	/* transform: translate(-210%,20%); */
     background-color: rgba(0, 0, 0, 0.29);
 	border-radius:10px;
 	padding:70px 100px;
