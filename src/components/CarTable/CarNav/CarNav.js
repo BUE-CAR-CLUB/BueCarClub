@@ -6,15 +6,17 @@ const CarHeader = () => {
     <div className='navBar'>
       <div className='topNav'>
         <div className='logo'>
-          <img src={BUE} alt="logo" />
+         {/* <img src={BUE} alt="logo" /> */}
+         <h1>BUE CAR CLUB</h1>
         </div>
         <div className='navItems'>
-          <a href="#welcome">Home</a>
-          <a href="#about">About</a>
-          <a href="#car-list">Car List</a>
-          <a href="#carAdd">Car Add</a>
+        <span >  <a href="#welcome">Home</a></span>
+       <span > <a href="#about">About</a></span>
+       <span ><a href="#car-list">Car List</a></span>
+       <span ><a href="#carAdd">Car Add</a></span>
         </div>
       </div>
+
 
     </div>
   )
