@@ -3,8 +3,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-style: oblique;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -29,24 +30,33 @@ code {
   font-weight: 800;
 }
 .logo img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-top: -60px;
+ 
 
 }
 .topNav .navItems {
-  margin-right: 1%;
+  margin-right: 2%;
+  margin-top: 1%;
+  
  
 }
 .topNav .navItems a {
   margin-right: 1em;
-  color: #111;
+  color: #273946;
+  font-size: 35px;
+  
 }
 .topNav .navItems a:hover {
-  color: orange;
+  color: #fff6de;
 }
 /*header*/
 /*CarMain1*/
 .welcomeMain {
   display: flex;
-  margin: 4% 4%;
+  margin: 2% 2%;
   border-radius: 10px;
   background-image: url("https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
@@ -58,8 +68,8 @@ code {
 }
 
 .welcomeMain .welcomeLeft {
-  padding-top: 10%;
-  width: 50%;
+  padding-top: 20%;
+  width: 60%;
 }
 
 .welcomeMain .welcomeRight {
