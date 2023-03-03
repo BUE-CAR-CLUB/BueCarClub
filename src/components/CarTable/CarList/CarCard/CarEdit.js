@@ -26,9 +26,9 @@ const CarEdit = ({car,onSubmit}) => {
   return (
     <form className="car-edit" onSubmit={handleSubmit}>
         <label>Price</label>
-        <input type="text" className="input" value={price} onChange={handleChangePrice} />
+        <input type="text" className="input" value={price} onChange={handleChangePrice} maxLength="15" />
         <label>Description</label>
-        <input type="text" className="input" value={description} onChange={handleChangeDescription} />
+        <input type="text" className="input" value={description} onChange={handleChangeDescription} maxLength="15" />
         <button className="button">CHANGE SAVE</button>
     </form>
   )

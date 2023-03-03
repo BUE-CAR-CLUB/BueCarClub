@@ -39,30 +39,43 @@ const handleSubmit = (e) => {
   return  (
 
 <div className="car-create">
+  <div className="box">
   <form  onSubmit={handleSubmit}>
-  <label> Model :</label>
+  <span class="text-center">CAR ADD FORM</span>
+  <div className="input-container">
+    <label> Model :</label>
+    <br/>
     <input type="text" value={model} onChange={handleChangeModel} />
+  </div>
 
-    <label> Year :</label>
+  <div className="input-container">
+  <label> Year :</label>
+  <br/>
     <input type="text" value={year} onChange={handleChangeYear} />
+    </div>
 
+    <div className="input-container">
     <label> Price :</label>
+    <br/>
     <input type="text" value={price} onChange={handleChangePrice} />
+    </div>
 
+    <div className="input-container">
     <label> Description :</label>
+    <br/>
     <input type="text" value={description} onChange={handleChangeDescription} />
+    </div>
 
+    <div className="input-container">
     <label> Url giriniz :</label>
+    <br/>
     <input type="text" value={url} onChange={handleChangeUrl} />
+    </div>
 
-    <button className="create-button">Araba ekle</button>
-
+    <button className="create-button">Add Car</button>
   </form>
-
-
+  </div>
 </div>
-
-
   );
 };
 export default CarAdd;
