@@ -46,7 +46,7 @@ code {
 .topNav .navItems a {
   margin-right: 1em;
   color: #273946;
-  font-size: 35px;
+  font-size: 27px;
   
 }
 .topNav .navItems a:hover {
@@ -104,12 +104,15 @@ code {
 /*CarMain2*/
 
 .about {
-  background-image: url("https://images.unsplash.com/photo-1592554203976-6d9208ba17bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=406&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1592554203976-6d9208ba17bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=406&q=80"); */
+  background-image: url("https://get.wallhere.com/photo/classic-cars-car-smoke-rubber-american-Dodge-Oldtimer-1968-Chrysler-mopar-autos-Burnout-gummi-musclecars-rt-charger-rauch-burningrubber-klassiker-moparnationals-beschleunigungsrennen-speedrace-mywinners-abigfave-canoneos400d-zecheewald-anawesomeshot-flugplatzlohm-hle-1090788.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-origin: content-box;
   background-size: cover;
+ 
 }
 
 .aboutMain {
@@ -118,20 +121,27 @@ code {
 
 .aboutMain .aboutLeft {
   width: 50%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 .aboutMain .aboutRight {
   width: 50%;
-  margin-top: 10%;
+  margin-top: 50%;
+  border-radius: 5px;
+
 }
 
 .aboutMain .aboutRight h1 {
-  padding-bottom: 4%;
+  margin-left: 20px;
+  padding-bottom: 2%;
+  color: #fff;
 }
 .aboutMain .aboutRight p {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+  color: #fff;
+  margin-left: 10px;
 }
+
 
 .aboutMain .aboutLeft img {
   max-width: 100%;
@@ -139,6 +149,7 @@ code {
   /* width: 100px; */
 }
 /*Carlist1*/
+
 
 .car-card {
   justify-content: stretch;
@@ -150,36 +161,44 @@ code {
 .car-list {
   align-items: center;
   justify-content: center;
-  border: 5px solid rgb(184, 168, 168);
-  margin: 20px 20px;
+  /* border: 5px solid rgb(184, 168, 168); */
+  margin: 5px 5px;
   border-radius: 10px;
   width: fit-content;
   display: flex;
   padding: 20px;
   flex-wrap: wrap;
   gap: 30px;
-  background-color: rgba(81, 80, 80, 0.2);
-
+  /* background-color: rgba(81, 80, 80, 0.2); */
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/270/832/986/dark-road-traffic-long-exposure-wallpaper-preview.jpg");
+  
+}
+.car-list image {
+  opacity: 0.10;
 }
 /*Carlist1*/
-
 
 .card {
   display: flex;
   position: relative;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   color: black;
   cursor: pointer;
   transition: 1s ease-in-out;
   transform-style: preserve-3d;
 }
+.card-span{
+  font-size: 20px;
+  color: orange;
+}
+
 .card:hover {
   transform: rotateY(0.5turn);
 }
 .carImage {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -195,18 +214,22 @@ code {
   transition: 1s ease-in-out;
 }
 
+.card_metin{
+  color: #fff6de;
+
+}
+
 .card_back_face {  
   display: flex;
   flex-direction: column;
-  color: #8a8a8a;
+  font-size: 20px;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
   transform: rotateY(0.5turn);
   backface-visibility: hidden;
-  background-color: rgb(3, 0, 41);
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
 }
 
 /*-------------------------Button---------------------------*/
@@ -223,13 +246,13 @@ code {
 }
 
 .buttons button {
-  --_c: #ffd000;
+  --_c: orange;
   flex: calc(1.25 + var(--_s, 0));
   min-width: 0;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
-  height: var(--h);
-  cursor: pointer;
+   height: var(--h);
+     cursor: pointer;
   color: var(--_c);
   border: var(--b) solid var(--_c);
   background: conic-gradient(
@@ -245,7 +268,7 @@ code {
   transition: flex 0.4s;
 }
 .buttons button + button {
-  --_c: #262425;
+  --_c: #fff6de;
   flex: calc(0.75 + var(--_s, 0));
   background: conic-gradient(
       from -90deg at calc(1.3 * var(--b)) 100%,
@@ -389,4 +412,32 @@ label{
 	
 }
 
-/*carAdd*/
+/*carEdit*/
+.car-edit{
+  border-radius: 15px;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+width: 500px;
+height: 500px;
+}
+
+.car-label-input{
+  flex-direction:column;
+  
+display: flex;
+}
+
+.car-edit input{
+font-size: 20px;
+margin-left: 20px;
+}
+.car-edit label {
+  font-size: 20px;
+  top:10px;
+  color: orange;
+}
+.button-margin{
+margin-left: 50px;
+
+}

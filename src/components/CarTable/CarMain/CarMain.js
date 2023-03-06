@@ -27,6 +27,7 @@ const CarMain = () => {
 
       <div className="about" id="about">
         <div className="aboutMain">
+            
           <div className="aboutLeft">
             {/* <img
               className="img-responsive"
