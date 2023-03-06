@@ -178,7 +178,6 @@ code {
 }
 /*Carlist1*/
 
-
 .card {
   display: flex;
   position: relative;
@@ -413,4 +412,32 @@ label{
 	
 }
 
-/*carAdd*/
+/*carEdit*/
+.car-edit{
+  border-radius: 15px;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+width: 500px;
+height: 500px;
+}
+
+.car-label-input{
+  flex-direction:column;
+  
+display: flex;
+}
+
+.car-edit input{
+font-size: 20px;
+margin-left: 20px;
+}
+.car-edit label {
+  font-size: 20px;
+  top:10px;
+  color: orange;
+}
+.button-margin{
+margin-left: 50px;
+
+}

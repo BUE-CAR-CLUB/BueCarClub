@@ -29,6 +29,7 @@ const CarCard = ({ car }) => {
             <h3><span className="card-span">Price:</span> {car.price}$ </h3>
             <p><span className="card-span">Description:</span> {car.description}</p>
             <br />
+            <br />
           </div>
 
           <div className="actions">
