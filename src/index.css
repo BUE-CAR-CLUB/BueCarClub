@@ -169,13 +169,11 @@ code {
   padding: 20px;
   flex-wrap: wrap;
   gap: 30px;
-  /* background-color: rgba(81, 80, 80, 0.2); */
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/270/832/986/dark-road-traffic-long-exposure-wallpaper-preview.jpg");
+  background-color: #2C3333;
+  /* background-image: url("https://p4.wallpaperbetter.com/wallpaper/270/832/986/dark-road-traffic-long-exposure-wallpaper-preview.jpg"); */
   
 }
-.car-list image {
-  opacity: 0.10;
-}
+
 /*Carlist1*/
 
 .card {
@@ -190,17 +188,19 @@ code {
 }
 .card-span{
   font-size: 20px;
-  color: orange;
+  color:#ff731d;
 }
 
 .card:hover {
   transform: rotateY(0.5turn);
+  
 }
 .carImage {
   width: 500px;
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
+  opacity: 0.8;
 }
 
 .card_front_face {
@@ -210,13 +210,13 @@ code {
   border-radius: 10px;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
+  backface-visibility: visible;
   transition: 1s ease-in-out;
+
 }
 
 .card_metin{
   color: #fff6de;
-
 }
 
 .card_back_face {  
@@ -227,10 +227,12 @@ code {
   align-items: center;
   justify-content: center;
   transform: rotateY(0.5turn);
-  backface-visibility: hidden;
+  backface-visibility:hidden;
   width: 500px;
   height: 500px;
+  /* opacity: 0.4; */
 }
+
 
 /*-------------------------Button---------------------------*/
 
@@ -246,7 +248,7 @@ code {
 }
 
 .buttons button {
-  --_c: orange;
+  --_c: #ff731d;
   flex: calc(1.25 + var(--_s, 0));
   min-width: 0;
   font-size: 25px;

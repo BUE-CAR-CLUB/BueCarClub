@@ -23,11 +23,11 @@ const CarCard = ({ car }) => {
         </div>
 
         <div className="card_back_face">
-          <div className="card_metin">
-            <h2><span className="card-span">Model:</span> {car.model}</h2>
-            <h3><span className="card-span">Year:</span> {car.year}</h3>
-            <h3><span className="card-span">Price:</span> {car.price}$ </h3>
-            <p><span className="card-span">Description:</span> {car.description}</p>
+          <div  className="card_metin">
+            <h2 style={{opacity:1}}><span className="card-span">Model:</span> {car.model}</h2>
+            <h3 style={{opacity:1}}><span className="card-span">Year:</span> {car.year}</h3>
+            <h3 style={{opacity:1}}><span className="card-span">Price:</span> {car.price}$ </h3>
+            <p style={{opacity:1}}><span className="card-span">Description:</span> {car.description}</p>
             <br />
             <br />
           </div>
