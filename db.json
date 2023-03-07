@@ -1,36 +1,12 @@
 {
   "cars": [
     {
-      "model": "beer",
-      "year": "2012",
-      "url": "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": "33300",
-      "description": "acıklaam2qwıuddqwdqwdqwdn",
-      "id": 5
-    },
-    {
       "model": "Dodge Charger",
       "year": "1968",
       "url": "https://get.wallhere.com/photo/white-car-interior-reflection-shadow-vehicle-green-valley-Dodge-vintage-wheels-charger-Chrysler-vinyl-nostalgic-driving-top-Sedan-rural-magnum-mopar-1968-bullitt-shadows-washington-photo-reflections-cars-retro-V8-transportation-original-automobile-interesting-classic-muscle-unitedstates-american-spokane-metallic-rt-carshow-automotive-musclecar-horsepower-hardtop-scott-cruising-440-sixties-collectable-68-yesteryear-easternwashington-scottcrawford-roadtrack-chargerrt-inlandnorthwest-60-s-pentastar-1968dodge-1968dodgecharger-bbody-1968charger-1968dodgechargerrt-land-vehicle-automotive-design-automotive-exterior-automobile-make-muscle-car-508785.jpg",
       "price": "100,000",
-      "description": "son",
+      "description": "V8 ,4-speed manuel ,375HP",
       "id": 6
-    },
-    {
-      "model": "dlnwqlnd",
-      "year": "1231",
-      "url": "https://images.pexels.com/photos/807677/pexels-photo-807677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": "d128u41982",
-      "description": "adsasda",
-      "id": 7
-    },
-    {
-      "model": "qwudnqıwnu",
-      "year": "123123",
-      "url": "https://images.pexels.com/photos/757185/pexels-photo-757185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "price": "54210j10",
-      "description": "dqoıwmodqmowdoq",
-      "id": 8
     },
     {
       "model": "dqwdqwdqd",
@@ -57,14 +33,6 @@
       "id": 11
     },
     {
-      "model": "jqbwdbqjbd",
-      "year": "17624",
-      "price": "19284194u91",
-      "description": "dqkwndqjnwdkqnwdkq",
-      "url": "https://images.unsplash.com/photo-1611654638027-2aa5212af802?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "id": 12
-    },
-    {
       "model": "hhh",
       "year": "234",
       "price": "345",
@@ -79,6 +47,38 @@
       "description": "juılll",
       "url": "https://images.pexels.com/photos/315952/pexels-photo-315952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 14
+    },
+    {
+      "model": "Ford Falcon",
+      "year": "1973",
+      "price": "80,000 ",
+      "description": "V8 , 4.3L , 4-speed manuel",
+      "url": "https://images.unsplash.com/photo-1611654638027-2aa5212af802?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "id": 15
+    },
+    {
+      "model": "Alpine A110",
+      "year": "1961-1977",
+      "price": "100,000 - 121,000",
+      "description": "V4  1.6L  95HP",
+      "url": "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 16
+    },
+    {
+      "model": "Buick Skylark",
+      "year": "1970s",
+      "price": "100,000",
+      "description": "V8 ,350HP ,4-speed manuel",
+      "url": "https://images.pexels.com/photos/807677/pexels-photo-807677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 17
+    },
+    {
+      "model": "BMW (E9) 2800CS",
+      "year": "1970s",
+      "price": "80,000",
+      "description": "V6 ,2.8L, 4-speed manuel",
+      "url": "https://www.arabagen.com/wp-content/uploads/2020/11/bmw-e9-005.jpg",
+      "id": 19
     }
   ]
 }
