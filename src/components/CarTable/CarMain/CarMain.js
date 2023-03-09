@@ -16,26 +16,12 @@ const CarMain = () => {
               only the finest examples for our discerning clients.
             </p>
           </div>
-          {/* <div className="welcomeRight">
-            <img
-              src="https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt=""
-            />
-          </div> */}
         </div>
       </div>
 
       <div className="about" id="about">
         <div className="aboutMain">
-            
-          <div className="aboutLeft">
-            {/* <img
-              className="img-responsive"
-              src="https://wallpapercave.com/dwp2x/yCtABom.jpg"
-              alt="aboutfoto"
-            /> */}
-          </div>
-
+          <div className="aboutLeft"> </div>
           <div class="aboutRight">
             <h1>About Me</h1>
             <p>
