@@ -75,9 +75,9 @@
     {
       "model": "BMW (E9) 2800CS",
       "year": "1970s",
-      "price": "80,000",
-      "description": "V6 ,2.8L, 4-speed manuel",
       "url": "https://www.arabagen.com/wp-content/uploads/2020/11/bmw-e9-005.jpg",
+      "price": "80,000",
+      "description": "V6 ,2.8L, 3-speed manuel",
       "id": 19
     }
   ]
