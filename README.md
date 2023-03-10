@@ -3,7 +3,7 @@
 **Home Page**
 ![Home Page](Readme_pics/home.png)
 
-**Card Backface**
+**Card Back Side**
 ![Card Backface](Readme_pics/Card_Backface.png)
 
 **Card Edit**
